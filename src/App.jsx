@@ -1,9 +1,12 @@
 import './App.css';
+import Header from './components/header';
+import Card from './components/card';
 
 function App() {
   return (
     <div>
-      <h1>Modified Form Of App</h1>
+      <Header />
+      <Card />
     </div>
   );
 }

@@ -1,9 +1,9 @@
-function header() {
-    return (
-        <div className="header">
-            <h1>Welcome To Chitkara Mess Card</h1>
+const Header = () => {
+    return ( 
+        <div>
+            <h1> Header </h1>
         </div>
-    )
+     );
 }
-
-export default header;
+ 
+export default Header;

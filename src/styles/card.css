@@ -1,0 +1,6 @@
+.cardWrapper {
+    background-color: wheat;
+    position: relative;
+    margin: 0 6rem;
+    display: flex;
+}
