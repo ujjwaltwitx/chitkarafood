@@ -1,19 +1,23 @@
 import '../styles/card.css'
 
+var hostel = null;
+var numb = null;
+var price = null;
 const Card = () => {
     return ( 
+        
         <div className="cardWrapper">
             <div className="cardHostel">
-                name
+                <p> {hostel}hostelName </p>
             </div>
             <div className="cardNumber">
-                number
+                <p> {numb}Number </p>
             </div>
             <div className="cardPrice">
-                price
+                <p> {price}Price </p>
             </div>
             <div className="cardPay">
-                pay
+                <button> Pay </button>
             </div>
         </div>
      );

@@ -2,5 +2,41 @@
     background-color: wheat;
     position: relative;
     margin: 0 6rem;
+    border: 1px solid black;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cardHostel, .cardNumber, .cardPrice, .cardPay{
+    border:1px solid black;
+}
+
+.cardHostel {
+    min-width: 20%;
+}
+.cardNumber{
+    min-width: 20%;
+}
+.cardPrice{
+    min-width:20%
+}
+.cardPay {
+    min-width: 15%;
+    text-align: center;
+    align-self: center;
+}
+
+
+.cardPay button {
+    
+}
+
+/* Responsive Layout */
+@media (max-width:800px) {
+    .cardWrapper div{
+        width: 40% ;
+    }
+    .cardWrapper{
+        margin: auto;
+    }
 }

@@ -1,0 +1,39 @@
+.subHeader {
+    background-color: black;
+    color: white;
+    margin: 1rem 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hostelTitle, .numbTitle, .priceTitle, .paymentTitle {
+    border: 1px solid white;
+}
+
+.hostelTitle{
+    width: 20%;
+}
+
+.numbTitle {
+    width: 20%;
+}
+
+.priceTitle {
+    width: 20%;
+}
+.paymentTitle {
+    width: 15%;
+}
+.paymentTitle
+
+div  p{
+    height: max-content;
+}
+@media (max-width:800px){
+    .subHeader div{
+        width: 40%;
+    }
+    .subHeader {
+        margin: auto;
+    }
+}
