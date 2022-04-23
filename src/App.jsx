@@ -1,12 +1,12 @@
 import './App.css';
 import Header from './components/header';
-import Card from './components/card';
-
+// import Card from './components/card';
+import UploadForm from './components/form';
 function App() {
   return (
     <div>
       <Header />
-      <Card />
+      <UploadForm />
     </div>
   );
 }
