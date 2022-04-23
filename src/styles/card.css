@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
 .cardWrapper {
     background-color: wheat;
+    border-radius: 4px;
+    box-sizing: border-box;
     position: relative;
     margin: 0 6rem;
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-family: 'Tapestry', cursive;
+    box-shadow: 0px 0px 15px -2px cyan;
 }
 .cardHostel, .cardNumber, .cardPrice, .cardPay{
     border:1px solid black;
+    text-align: center;
+    font-size: 1rem;
 }
 
 .cardHostel {
@@ -22,13 +30,15 @@
 }
 .cardPay {
     min-width: 15%;
-    text-align: center;
     align-self: center;
 }
 
 
 .cardPay button {
-    
+    font-family: 'Tapestry',cursive;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(48, 148, 255);
 }
 
 /* Responsive Layout */
@@ -37,6 +47,6 @@
         width: 40% ;
     }
     .cardWrapper{
-        margin: auto;
+        margin: 1rem 0;
     }
 }
