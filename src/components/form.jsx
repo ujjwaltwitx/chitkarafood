@@ -2,6 +2,9 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+
 import "../styles/form.css"
 
 const currencies = [
@@ -61,7 +64,11 @@ export default function BasicTextFields() {
                 </TextField> <br />
                 <TextField id="outlined-basic" label="Mobile No" variant="outlined" /><br />
                 <TextField id="outlined-basic" label="Set Your Price(Rs. 30 - Rs. 70)" variant="outlined" /><br />
-                
+                <Stack spacing={2} direction="row">
+                    {/* <Button variant="text">Text</Button> */}
+                    <Button variant="contained">Submit Your Mess Card</Button>
+                    {/* <Button variant="outlined">Outlined</Button> */}
+                </Stack>
             </Box>
         </div>
     );
