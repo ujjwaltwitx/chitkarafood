@@ -1,7 +1,9 @@
+import '../styles/header.css'
+
 const Header = () => {
     return ( 
-        <div>
-            <h1> Header </h1>
+        <div id="header">
+            <h1> Humara University </h1>
         </div>
      );
 }
