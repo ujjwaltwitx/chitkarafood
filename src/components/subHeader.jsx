@@ -1,4 +1,4 @@
-import '../styles/title.css'
+import '../styles/subHeader.css'
 
 const SubHeader = () => {
     return ( 

@@ -1,5 +1,24 @@
 #header{
-    padding: 10px;
+    justify-content: space-between;
+    align-items:center;
+    display: flex;
+    z-index:999;
+    position: sticky;
+    top:0;
+    padding-left: 10px;
+    padding-right: 0px;
     background-color: red;
     color: white;
+}
+
+#uploadBtn{
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: green;
+    user-select: none;
+}
+
+#uploadBtn:hover{
+    cursor: pointer;
 }

@@ -1,0 +1,45 @@
+.subHeader {
+  position:relative;
+  position: sticky;
+  border-radius: 10px;
+  background-color: #e7ebf0;
+  padding: 20px;
+  margin: 1rem 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.hostelTitle,
+.numbTitle,
+.priceTitle,
+.paymentTitle {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.hostelTitle {
+  width: 20%;
+}
+
+.numbTitle {
+  width: 20%;
+}
+
+.priceTitle {
+  width: 20%;
+}
+.paymentTitle {
+  width: 15%;
+}
+.paymentTitle div p {
+  height: max-content;
+}
+@media (max-width: 800px) {
+  .subHeader div {
+    width: 40%;
+  }
+  .subHeader {
+    margin: auto;
+  }
+}
