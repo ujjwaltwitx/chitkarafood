@@ -1,4 +1,4 @@
-/* <<<<<<< HEAD
+
 #header{
     justify-content: space-between;
     align-items:center;
@@ -21,9 +21,11 @@
 }
 
 #uploadBtn:hover{
-    cursor: pointer; */
-/* ======= */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+    cursor: pointer;
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 
 
 #container{
@@ -37,11 +39,11 @@
 }
 #heading{
     text-align: center;
-    /* border:1px solid black ; */
+    border:1px solid black ;
     margin-left: 10px;
 }
 #publish{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     margin-right: 10px;
 }
 #publish button {
@@ -56,6 +58,4 @@
     font-weight: 900;
     letter-spacing: 2px;
     font-family: 'Nunito Sans', sans-serif;
-
-/* >>>>>>> 7ac2ad1d1922ed82f38ade9008b94e4601552888 */
-}
+} */

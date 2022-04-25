@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import '../styles/card.css'
 // var hostel = null;
 // var numb = null;
@@ -16,7 +15,7 @@ const Card = (props) => {
                 <p> { "Rs. " + props.price}</p>
             </div>
             <div className="cardPay">
-                <div>Pay</div>
+                <div><a href="https://google.com">Pay</a> </div>
             </div>
         </div>
      );
