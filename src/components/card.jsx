@@ -1,9 +1,10 @@
+import { useState } from 'react';
 import '../styles/card.css'
 
-var hostel = null;
-var numb = null;
-var price = null;
 const Card = () => {
+    var [hostel, hostelName] = useState();
+    var [numb, cardNumber] = useState();
+    var [price, cardPrice] = useState(); 
     return ( 
         
         <div className="cardWrapper">

@@ -2,8 +2,13 @@ import '../styles/header.css'
 
 const Header = () => {
     return ( 
-        <div id="header">
-            <h1> Humara University </h1>
+        <div id="container">
+            <div>
+                <h1 id='heading'> Mess </h1>
+            </div>
+            <div id='publish'>
+                <button onClick={event => window.location.href ='/form.jsx'}> Add Card </button>
+            </div>
         </div>
      );
 }
