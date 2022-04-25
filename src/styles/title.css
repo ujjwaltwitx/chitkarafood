@@ -1,14 +1,15 @@
 .subHeader {
     background-color: black;
     color: white;
-    margin: 1rem 6rem;
+    margin: 0 6rem 2rem 6rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .hostelTitle, .numbTitle, .priceTitle, .paymentTitle {
-    border: 1px solid white;
     text-align: center;
+    font-size: 15px;
+    padding: 10px;
 }
 
 .hostelTitle{
