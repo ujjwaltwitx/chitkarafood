@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import '../styles/card.css'
 // var hostel = null;
 // var numb = null;

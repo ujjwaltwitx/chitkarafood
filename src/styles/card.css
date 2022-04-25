@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 
 .cardWrapper {
+/* <<<<<<< HEAD
     padding:10px;
     background-color: wheat;
     border-radius: 10px;
@@ -10,11 +11,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+======= */
+    background-color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 1rem 6rem;
+    border: 1px solid darkgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+/* >>>>>>> 7ac2ad1d1922ed82f38ade9008b94e4601552888 */
 }
 
 .cardHostel, .cardNumber, .cardPrice, .cardPay{
     text-align: center;
     font-size: 1rem;
+    padding: 5px;
 }
 
 .cardHostel {
@@ -31,6 +47,7 @@
     align-self: center;
 }
 
+/* <<<<<<< HEAD
 .cardPay div {
     color:blue;
 }
@@ -43,6 +60,25 @@
     border-radius: 4px;
     background-color: rgb(48, 148, 255);
 } */
+======= */
+
+.cardPay button {
+    /* font-family: 'Nunito Sans', sans-serif; */
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+.cardPay button:hover{
+    transform: scale(1.1);
+}
+/* >>>>>>> 7ac2ad1d1922ed82f38ade9008b94e4601552888 */
 
 /* Responsive Layout */
 @media (max-width:800px) {
