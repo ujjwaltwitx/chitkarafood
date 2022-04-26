@@ -15,7 +15,7 @@ const Card = (props) => {
                 <p> { "Rs. " + props.price}</p>
             </div>
             <div className="cardPay">
-                <div><a href="https://google.com">Pay</a> </div>
+                <div><a href="https://rzp.io/l/Gdvp5H4eU">Pay</a> </div>
             </div>
         </div>
      );
