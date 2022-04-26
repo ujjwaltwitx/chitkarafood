@@ -3,6 +3,7 @@ import UploadForm from './components/form';
 import Card from './components/card';
 import SubHeader from './components/subHeader';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import AllCards from './components/allCards';
 
 var eachCard = (<Card hostel="Armstrong" name="Ujjwal" cardNum="2236" price="45" />);
 var allCards = [];
@@ -14,6 +15,7 @@ function App() {
     <Router>
       <div>
         <Header />
+        <AllCards />
         <Switch>
           <Route exact path="/upload">
             <UploadForm />

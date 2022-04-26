@@ -46,8 +46,8 @@ export default function BasicTextFields() {
                 noValidate
                 autoComplete="off"
             >
-                <TextField id="outlined-basic" label="Roll No" variant="outlined" /><br />
-                <TextField id="outlined-basic" label="UPI ID" variant="outlined" /><br />
+                <TextField id="outlined-basic" label="University Roll No" variant="outlined" /><br />
+                {/* <TextField id="outlined-basic" label="UPI ID" variant="outlined" /><br /> */}
                 <TextField
                     id="standard-select-currency"
                     select
@@ -62,8 +62,8 @@ export default function BasicTextFields() {
                         </MenuItem>
                     ))}
                 </TextField> <br />
+                <TextField id="outlined-basic" label="Mess Card Number" variant="outlined" /><br />
                 <TextField id="outlined-basic" label="Mobile No" variant="outlined" /><br />
-                <TextField id="outlined-basic" label="Set Your Price(Rs. 30 - Rs. 70)" variant="outlined" /><br />
                 <Stack spacing={2} direction="row">
                     {/* <Button variant="text">Text</Button> */}
                     <Button variant="contained">Submit Your Mess Card</Button>
