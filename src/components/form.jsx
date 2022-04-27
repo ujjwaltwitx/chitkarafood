@@ -47,7 +47,6 @@ export default function BasicTextFields() {
                 autoComplete="off"
             >
                 <TextField id="outlined-basic" label="University Roll No" variant="outlined" /><br />
-                {/* <TextField id="outlined-basic" label="UPI ID" variant="outlined" /><br /> */}
                 <TextField
                     id="standard-select-currency"
                     select
@@ -65,9 +64,7 @@ export default function BasicTextFields() {
                 <TextField id="outlined-basic" label="Mess Card Number" variant="outlined" /><br />
                 <TextField id="outlined-basic" label="Mobile No" variant="outlined" /><br />
                 <Stack spacing={2} direction="row">
-                    {/* <Button variant="text">Text</Button> */}
                     <Button variant="contained">Submit Your Mess Card</Button>
-                    {/* <Button variant="outlined">Outlined</Button> */}
                 </Stack>
             </Box>
         </div>

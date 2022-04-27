@@ -20,12 +20,12 @@ async function getCards(db) {
     const cardCol = collection(db, 'Card Details');
     const cardSnapshot = await getDocs(cardCol);
     const cardList = cardSnapshot.docs.map(doc => doc.data());
-    // return cardList;
-    console.log(cardList);
-    // console.log(cardList);
+    return cardList;
   }
  
-function getData(){
-    getCards(db);
+async function getData(){
+    return getCards(db);
 }
+
+
 export default getData;

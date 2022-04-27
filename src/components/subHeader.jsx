@@ -5,15 +5,15 @@ const SubHeader = () => {
         <div className="subHeader">
             <div className="hostelTitle">
                 Hostel Name
-            </div>
+            </div>  
             <div className="numbTitle">
                 Card Number
             </div>
             <div className="priceTitle">
-                Price
+                Roll No
             </div>
             <div className="paymentTitle">
-                Payment
+                Mobile No
             </div>
         </div>
      );

@@ -1,28 +1,22 @@
 import Header from './components/header';
 import UploadForm from './components/form';
-import Card from './components/card';
 import SubHeader from './components/subHeader';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AllCards from './components/allCards';
 
-var eachCard = (<Card hostel="Armstrong" name="Ujjwal" cardNum="2236" price="45" />);
-var allCards = [];
-for (let index = 0; index < 10; index++) {
-  allCards.push(eachCard);
-}
+
 function App() {
   return (
     <Router>
       <div>
         <Header />
-        <AllCards />
         <Switch>
           <Route exact path="/upload">
             <UploadForm />
           </Route>
           <Route exact path="/">
             <SubHeader />
-            {allCards}
+            <AllCards />
           </Route>
         </Switch>
       </div>
