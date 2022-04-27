@@ -1,7 +1,4 @@
 import '../styles/card.css'
-// var hostel = null;
-// var numb = null;
-// var price = null;
 const Card = (props) => {
     return (
         <div className="cardWrapper">
@@ -12,10 +9,10 @@ const Card = (props) => {
                 <p> {props.cardNum}</p>
             </div>
             <div className="cardPrice">
-                <p> { "Rs. " + props.price}</p>
+                <p> {props.rollNo}</p>
             </div>
             <div className="cardPay">
-                <div><a href="https://rzp.io/l/Gdvp5H4eU">Pay</a> </div>
+                <p>{props.mobNo}</p>
             </div>
         </div>
      );
