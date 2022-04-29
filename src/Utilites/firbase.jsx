@@ -27,5 +27,8 @@ async function getData(){
     return getCards(db);
 }
 
-
+async function uploadData() {
+  
+}
+export {db};
 export default getData;
